@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="anarenk1">#282828</color>
+    <color name="yazirenk2">#595959</color>
+    <color name="altbarrenk">#282828</color>
+</resources>
