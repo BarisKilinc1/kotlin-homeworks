@@ -1,0 +1,53 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/Sarkiresim"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#353535"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/Sarkiadi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Sarkiadi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:text="Şarkı Adı"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Sarkiresim"
+        app:layout_constraintTop_toTopOf="@id/Sarkiresim" />
+
+    <TextView
+        android:id="@+id/SarkiSanatci"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Sanatçı"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/Sarkiadi"
+        app:layout_constraintTop_toBottomOf="@id/Sarkiadi" />
+
+    <TextView
+        android:id="@+id/SarkiUzunluk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:45"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/Sarkiresim"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
